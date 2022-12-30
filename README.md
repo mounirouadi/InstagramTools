@@ -3,4 +3,4 @@ Python Scripts that automates Following/Unfollowing Instagram accounts from a gi
 # Requirements
 Selenium library was used to control a web browser into accessing Instagram.
 it can be installed by:
-'pip install selenium'
+`pip install selenium`
