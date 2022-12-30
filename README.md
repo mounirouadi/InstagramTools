@@ -11,7 +11,7 @@ After installing Selenium and your browser driver, you have to log in to your In
 
 `python login_instagram.py "your_username" "your_password"`
 
-## Usage
+## Unfollow
 To unfollow a list of accounts, run the unfollow script by passing the usernames list directory as an argument, as follows:
 
 `python unfollow.py "directory_of_usernames"`
