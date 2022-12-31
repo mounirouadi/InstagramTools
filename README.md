@@ -11,9 +11,11 @@ After installing Selenium and your browser driver, you have to log in to your In
 
 `python login_instagram.py your_username your_password`
 
-## Unfollow
-To unfollow a list of accounts, run the unfollow script by passing the usernames list directory as an argument, as follows:
+## Unfollow/Follow
+To unfollow or follow a list of accounts, run the unfollow script by passing the usernames list directory as an argument, as follows:
 
 `python unfollow.py "directory_of_usernames"`
+or
+`python follow.py "directory_of_usernames"`
 
 Instagram gives a timeout after certain number of unfollows to prevent spamming, so the code will stop execution and saves the remaining usernames in the same given file for further use.
