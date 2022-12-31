@@ -9,7 +9,7 @@ it can be installed by:
 # Usage
 After installing Selenium and your browser driver, you have to log in to your Instagram account by running the Instagram login script and pass your username and password as string arguments as following:
 
-`python login_instagram.py "your_username" "your_password"`
+`python login_instagram.py your_username your_password`
 
 ## Unfollow
 To unfollow a list of accounts, run the unfollow script by passing the usernames list directory as an argument, as follows:
